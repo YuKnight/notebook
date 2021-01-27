@@ -1,0 +1,11 @@
+created: 20210127020452772
+modified: 20210127020642574
+tags: 
+title: $:/config/FileSystemPaths
+type: text/vnd.tiddlywiki
+
+[is[system]!has[draft.of]removeprefix[$:/]addprefix[_System/]]
+[is[draft]search-replace:g:regexp[/|\\],[_]addprefix[Drafts/]]
+[tag[task]addprefix[Tasks/]]
+[!is[system]addprefix[Notes/]]
+[tag[external]addprefix[External/]]
